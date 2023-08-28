@@ -16,7 +16,7 @@ const {cartRouter}=require("./User.routes/cart.route")
 app.use("/cart",cartRouter)
 
 
-const {auth} = require("./middelwear/auth.middlewear")
+const {auth} = require("./middelwear/auth.middelwear")
 app.use(auth)
 app.use("/notes",noteRouter)
 
